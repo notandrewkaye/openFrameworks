@@ -106,7 +106,7 @@ void testApp::draw(){
 
 	//You can either draw the mesh or the wireframe
 	// mainMesh.drawWireframe();
-	mainMesh.drawFaces();
+	mainMesh.drawWireframe();
 	cam.end();
 	
 	//draw framerate for fun
